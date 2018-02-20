@@ -4,8 +4,6 @@
 
 .VERSION 1.0
 
-.PROJECTURI 
-
 .SYNOPSIS
 Backup All Index Collection from Solr Cluster
 
@@ -15,11 +13,11 @@ Backup all Index Collection from Solr Cluster. Uses Solr collection List api to 
 .PARAMETER server
 IP address of the solr server the collection belongs to. Default value is localhost
 
-.PARAMETER path
-Share Drive / DFS path to save the collection backup
-
 .PARAMETER port
 Port on which solr server is running. Default value is 8983
+
+.PARAMETER path
+Share Drive / DFS path to save the collection backup
 
 .PARAMETER basic_auth
 Flag to validate if Basic Authentication is enabled. Default value is false
