@@ -1,5 +1,5 @@
 ﻿<#PSScriptInfo
-.AUTHOR Mindtree
+.AUTHOR Kunal Aggarwal
 .VERSION V1.0
 .SYNOPSIS
 Setup Zookeeper Cluster
