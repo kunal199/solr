@@ -12,7 +12,7 @@ You need to have 3.0 or newer version of Powershell installed.
 1. `Import-Module ./Backup.ps1`
 2. `Invoke-SolrBackupAllCollections -server "127.0.0.1" -port 8983 -path "\\127.0.0.1\collection_backup"` (Refer Example for more information)
 
-## Collection Backup
+## Collection Restore
 Powershell Script to restore index collection to solr cluster.
 
 **Requirements**
